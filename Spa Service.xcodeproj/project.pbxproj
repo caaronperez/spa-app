@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5B99D21FB39CFF004EC113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B99D11FB39CFF004EC113 /* AppDelegate.swift */; };
+		BB5B99D41FB39CFF004EC113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B99D31FB39CFF004EC113 /* ViewController.swift */; };
+		BB5B99D71FB39CFF004EC113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5B99D51FB39CFF004EC113 /* Main.storyboard */; };
+		BB5B99DA1FB39CFF004EC113 /* Spa_Service.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB5B99D81FB39CFF004EC113 /* Spa_Service.xcdatamodeld */; };
+		BB5B99DC1FB39CFF004EC113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5B99DB1FB39CFF004EC113 /* Assets.xcassets */; };
+		BB5B99DF1FB39CFF004EC113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5B99DD1FB39CFF004EC113 /* LaunchScreen.storyboard */; };
+		BB5B99EA1FB39CFF004EC113 /* Spa_ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B99E91FB39CFF004EC113 /* Spa_ServiceTests.swift */; };
+		BB5B99F51FB39CFF004EC113 /* Spa_ServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B99F41FB39CFF004EC113 /* Spa_ServiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB5B99E61FB39CFF004EC113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5B99C61FB39CFE004EC113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5B99CD1FB39CFF004EC113;
+			remoteInfo = "Spa Service";
+		};
+		BB5B99F11FB39CFF004EC113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5B99C61FB39CFE004EC113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5B99CD1FB39CFF004EC113;
+			remoteInfo = "Spa Service";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB5B99CE1FB39CFF004EC113 /* Spa Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spa Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5B99D11FB39CFF004EC113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB5B99D31FB39CFF004EC113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB5B99D61FB39CFF004EC113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB5B99D91FB39CFF004EC113 /* Spa_Service.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spa_Service.xcdatamodel; sourceTree = "<group>"; };
+		BB5B99DB1FB39CFF004EC113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5B99DE1FB39CFF004EC113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB5B99E01FB39CFF004EC113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5B99E51FB39CFF004EC113 /* Spa ServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spa ServiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5B99E91FB39CFF004EC113 /* Spa_ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spa_ServiceTests.swift; sourceTree = "<group>"; };
+		BB5B99EB1FB39CFF004EC113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5B99F01FB39CFF004EC113 /* Spa ServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spa ServiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5B99F41FB39CFF004EC113 /* Spa_ServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spa_ServiceUITests.swift; sourceTree = "<group>"; };
+		BB5B99F61FB39CFF004EC113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB5B99CB1FB39CFF004EC113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5B99E21FB39CFF004EC113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5B99ED1FB39CFF004EC113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5B99C51FB39CFE004EC113 = {
+			isa = PBXGroup;
+			children = (
+				BB5B99D01FB39CFF004EC113 /* Spa Service */,
+				BB5B99E81FB39CFF004EC113 /* Spa ServiceTests */,
+				BB5B99F31FB39CFF004EC113 /* Spa ServiceUITests */,
+				BB5B99CF1FB39CFF004EC113 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5B99CF1FB39CFF004EC113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B99CE1FB39CFF004EC113 /* Spa Service.app */,
+				BB5B99E51FB39CFF004EC113 /* Spa ServiceTests.xctest */,
+				BB5B99F01FB39CFF004EC113 /* Spa ServiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5B99D01FB39CFF004EC113 /* Spa Service */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B9A051FB39D30004EC113 /* Helpers */,
+				BB5B9A041FB39D1C004EC113 /* Model */,
+				BB5B9A021FB39D09004EC113 /* Views */,
+				BB5B9A031FB39D15004EC113 /* Controller */,
+				BB5B99DB1FB39CFF004EC113 /* Assets.xcassets */,
+				BB5B99D81FB39CFF004EC113 /* Spa_Service.xcdatamodeld */,
+				BB5B99E01FB39CFF004EC113 /* Info.plist */,
+			);
+			path = "Spa Service";
+			sourceTree = "<group>";
+		};
+		BB5B99E81FB39CFF004EC113 /* Spa ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B99E91FB39CFF004EC113 /* Spa_ServiceTests.swift */,
+				BB5B99EB1FB39CFF004EC113 /* Info.plist */,
+			);
+			path = "Spa ServiceTests";
+			sourceTree = "<group>";
+		};
+		BB5B99F31FB39CFF004EC113 /* Spa ServiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B99F41FB39CFF004EC113 /* Spa_ServiceUITests.swift */,
+				BB5B99F61FB39CFF004EC113 /* Info.plist */,
+			);
+			path = "Spa ServiceUITests";
+			sourceTree = "<group>";
+		};
+		BB5B9A021FB39D09004EC113 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B99D51FB39CFF004EC113 /* Main.storyboard */,
+				BB5B99DD1FB39CFF004EC113 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB5B9A031FB39D15004EC113 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B99D31FB39CFF004EC113 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB5B9A041FB39D1C004EC113 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB5B9A051FB39D30004EC113 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B99D11FB39CFF004EC113 /* AppDelegate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5B99CD1FB39CFF004EC113 /* Spa Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5B99F91FB39CFF004EC113 /* Build configuration list for PBXNativeTarget "Spa Service" */;
+			buildPhases = (
+				BB5B99CA1FB39CFF004EC113 /* Sources */,
+				BB5B99CB1FB39CFF004EC113 /* Frameworks */,
+				BB5B99CC1FB39CFF004EC113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spa Service";
+			productName = "Spa Service";
+			productReference = BB5B99CE1FB39CFF004EC113 /* Spa Service.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB5B99E41FB39CFF004EC113 /* Spa ServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5B99FC1FB39CFF004EC113 /* Build configuration list for PBXNativeTarget "Spa ServiceTests" */;
+			buildPhases = (
+				BB5B99E11FB39CFF004EC113 /* Sources */,
+				BB5B99E21FB39CFF004EC113 /* Frameworks */,
+				BB5B99E31FB39CFF004EC113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5B99E71FB39CFF004EC113 /* PBXTargetDependency */,
+			);
+			name = "Spa ServiceTests";
+			productName = "Spa ServiceTests";
+			productReference = BB5B99E51FB39CFF004EC113 /* Spa ServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB5B99EF1FB39CFF004EC113 /* Spa ServiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5B99FF1FB39CFF004EC113 /* Build configuration list for PBXNativeTarget "Spa ServiceUITests" */;
+			buildPhases = (
+				BB5B99EC1FB39CFF004EC113 /* Sources */,
+				BB5B99ED1FB39CFF004EC113 /* Frameworks */,
+				BB5B99EE1FB39CFF004EC113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5B99F21FB39CFF004EC113 /* PBXTargetDependency */,
+			);
+			name = "Spa ServiceUITests";
+			productName = "Spa ServiceUITests";
+			productReference = BB5B99F01FB39CFF004EC113 /* Spa ServiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5B99C61FB39CFE004EC113 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Mobile Consulting Solutions";
+				TargetAttributes = {
+					BB5B99CD1FB39CFF004EC113 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BB5B99E41FB39CFF004EC113 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB5B99CD1FB39CFF004EC113;
+					};
+					BB5B99EF1FB39CFF004EC113 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB5B99CD1FB39CFF004EC113;
+					};
+				};
+			};
+			buildConfigurationList = BB5B99C91FB39CFE004EC113 /* Build configuration list for PBXProject "Spa Service" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5B99C51FB39CFE004EC113;
+			productRefGroup = BB5B99CF1FB39CFF004EC113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5B99CD1FB39CFF004EC113 /* Spa Service */,
+				BB5B99E41FB39CFF004EC113 /* Spa ServiceTests */,
+				BB5B99EF1FB39CFF004EC113 /* Spa ServiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5B99CC1FB39CFF004EC113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5B99DF1FB39CFF004EC113 /* LaunchScreen.storyboard in Resources */,
+				BB5B99DC1FB39CFF004EC113 /* Assets.xcassets in Resources */,
+				BB5B99D71FB39CFF004EC113 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5B99E31FB39CFF004EC113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5B99EE1FB39CFF004EC113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB5B99CA1FB39CFF004EC113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5B99D41FB39CFF004EC113 /* ViewController.swift in Sources */,
+				BB5B99DA1FB39CFF004EC113 /* Spa_Service.xcdatamodeld in Sources */,
+				BB5B99D21FB39CFF004EC113 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5B99E11FB39CFF004EC113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5B99EA1FB39CFF004EC113 /* Spa_ServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5B99EC1FB39CFF004EC113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5B99F51FB39CFF004EC113 /* Spa_ServiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB5B99E71FB39CFF004EC113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5B99CD1FB39CFF004EC113 /* Spa Service */;
+			targetProxy = BB5B99E61FB39CFF004EC113 /* PBXContainerItemProxy */;
+		};
+		BB5B99F21FB39CFF004EC113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5B99CD1FB39CFF004EC113 /* Spa Service */;
+			targetProxy = BB5B99F11FB39CFF004EC113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB5B99D51FB39CFF004EC113 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5B99D61FB39CFF004EC113 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB5B99DD1FB39CFF004EC113 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5B99DE1FB39CFF004EC113 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB5B99F71FB39CFF004EC113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB5B99F81FB39CFF004EC113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5B99FA1FB39CFF004EC113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = "Spa Service/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.Spa-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB5B99FB1FB39CFF004EC113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = "Spa Service/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.Spa-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB5B99FD1FB39CFF004EC113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = "Spa ServiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.Spa-ServiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spa Service.app/Spa Service";
+			};
+			name = Debug;
+		};
+		BB5B99FE1FB39CFF004EC113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = "Spa ServiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.Spa-ServiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spa Service.app/Spa Service";
+			};
+			name = Release;
+		};
+		BB5B9A001FB39CFF004EC113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = "Spa ServiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.Spa-ServiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spa Service";
+			};
+			name = Debug;
+		};
+		BB5B9A011FB39CFF004EC113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = "Spa ServiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.Spa-ServiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spa Service";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5B99C91FB39CFE004EC113 /* Build configuration list for PBXProject "Spa Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5B99F71FB39CFF004EC113 /* Debug */,
+				BB5B99F81FB39CFF004EC113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5B99F91FB39CFF004EC113 /* Build configuration list for PBXNativeTarget "Spa Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5B99FA1FB39CFF004EC113 /* Debug */,
+				BB5B99FB1FB39CFF004EC113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5B99FC1FB39CFF004EC113 /* Build configuration list for PBXNativeTarget "Spa ServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5B99FD1FB39CFF004EC113 /* Debug */,
+				BB5B99FE1FB39CFF004EC113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5B99FF1FB39CFF004EC113 /* Build configuration list for PBXNativeTarget "Spa ServiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5B9A001FB39CFF004EC113 /* Debug */,
+				BB5B9A011FB39CFF004EC113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB5B99D81FB39CFF004EC113 /* Spa_Service.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB5B99D91FB39CFF004EC113 /* Spa_Service.xcdatamodel */,
+			);
+			currentVersion = BB5B99D91FB39CFF004EC113 /* Spa_Service.xcdatamodel */;
+			path = Spa_Service.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB5B99C61FB39CFE004EC113 /* Project object */;
+}
